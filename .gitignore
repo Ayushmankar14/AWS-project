@@ -1,0 +1,24 @@
+# Ignore all log files
+logs/
+*.log
+
+# Ignore output and archive data
+output/
+archive/
+input/
+
+# Ignore any saved CSVs (samples, backups, etc.)
+*.csv
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
